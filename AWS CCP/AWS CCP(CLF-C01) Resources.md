@@ -60,10 +60,10 @@ pattern matching to discover and protect your sensitive data in AWS
 
 
 ### RESERVED-INSTANCE:
--> Predictable, Steady-State, Reserved Capacity.
--> The longer the term, the greater the savings. (1 or 3 years of contract)
--> STANDARD    - upto 75% of reducing costs compared to On-Demand.
--> CONVERTIBLE - upto 54% of reducing costs compared to On-Demand.
+- Predictable, Steady-State, Reserved Capacity.
+- The longer the term, the greater the savings. (1 or 3 years of contract)
+- STANDARD    - upto 75% of reducing costs compared to On-Demand.
+- CONVERTIBLE - upto 54% of reducing costs compared to On-Demand.
 **Payment Methods**
 - All upfront (Pre paid): Full payment at the start of the term
 - Partial Upfront       : Some amount has to be payed then remaining is been discounted at hourly rate while billing
@@ -78,43 +78,43 @@ pattern matching to discover and protect your sensitive data in AWS
 - Feasible at very LOW COMPUTE COST.
 - Load Balancing, Flexible & Big Data Workloads.
 
--> AWS BATCH: very convinient to use with SPOT. (Commonly we use Spot with AWS BATCH).
--> If Terminated by AWS   : won't be charged for partial hour of usage.
--> If Terminated by USER  : will be charged for an hour that we use.
+  **AWS BATCH:** very convinient to use with SPOT. (Commonly we use Spot with AWS BATCH).
+  - If Terminated by AWS   : won't be charged for partial hour of usage.
+  - If Terminated by USER  : will be charged for an hour that we use.
 
 ### DEDICATED INSTANCES:
--> To meet Regulatory requirements.
--> Here we have - Multi Tenant & Single Tenant
-  - Multi Tenant: Virtual Isolization
-  - Single Tenant: Physical Isolization
--> Dedicated can be offered:
-  - On-demand
-  - Reserved (upto 60% savings)
-  - Spot (upto 90% savings)
--> Used When: Security concern, don't want to share same hardware with AWS Customers.
+- To meet Regulatory requirements.
+- Here we have - Multi Tenant & Single Tenant
+   - Multi Tenant: Virtual Isolization
+   - Single Tenant: Physical Isolization
+- Dedicated can be offered:
+   - On-demand
+   - Reserved (upto 60% savings)
+   - Spot (upto 90% savings)
+- Used When: Security concern, don't want to share same hardware with AWS Customers.
 
 ### SAVINGS PLANS:
--> Similar t Reserved Instances but Simplidies purchasing process.
--> Have 3 typesof saving plans:
-  - Compute Saving Plan-> flexoble & reduces cost upto 66%
-  - EC2 Instance Saving Plan-> Provides lowest prices offering saving upto 72%
-  - SageMaker(ML Service that uses ML EC2 Instances) Saving Plan-> Reduces costs upto 64%.
+- Similar t Reserved Instances but Simplidies purchasing process.
+- Have 3 typesof saving plans:
+   - Compute Saving Plan-> flexoble & reduces cost upto 66%
+   - EC2 Instance Saving Plan-> Provides lowest prices offering saving upto 72%
+   - SageMaker(ML Service that uses ML EC2 Instances) Saving Plan-> Reduces costs upto 64%.
 
 ## S3 Classes:
-**-> S3 Standard(default)              -** Fast, 99.99% Availability, Replicated across 3 AZs.
-**-> S3 Intelligent Tiering            -** Uses ML to analyze object usage.
-**-> S3 Standard IA(Infrequent Access) -** Still Fast, CHEAPER if we access files LESS THAN ONCE A MONTH. 50% Less than STANDARD.
-**-> S3 One-Zone-IA                    -** Objects exists in only 1 AZ. 99.5% Availability, 20% Cheaper than Standard IA. Don't have duplicated data to retrieve it as it's in single AZ.
-**-> S3 Glacier                        -** for Long-Term Cold Storage. Very Cheap. Retrieval can take minutes to hours. Used for- Archiving & Long-term Backup.
-**-> S3 Glacier Deep Archive           -** Lowest Cost storage, Data Retrieval is 12 hours.
-**-> S3 Outposts                       -** has it's own storage class.
+- **S3 Standard(default) -** Fast, 99.99% Availability, Replicated across 3 AZs.
+- **S3 Intelligent Tiering -** Uses ML to analyze object usage.
+- **S3 Standard IA(Infrequent Access) -** Still Fast, CHEAPER if we access files LESS THAN ONCE A MONTH. 50% Less than STANDARD.
+- **S3 One-Zone-IA -** Objects exists in only 1 AZ. 99.5% Availability, 20% Cheaper than Standard IA. Don't have duplicated data to retrieve it as it's in single AZ.
+- **S3 Glacier -** for Long-Term Cold Storage. Very Cheap. Retrieval can take minutes to hours. Used for- Archiving & Long-term Backup.
+- **S3 Glacier Deep Archive -** Lowest Cost storage, Data Retrieval is 12 hours.
+- **S3 Outposts -** has it's own storage class.
 
 ## SNOW FAMILY:
--> Storage & compute devices used to PHYSICALLY MOVE DATA IN or OUT the CLOUD. 
+- Storage & compute devices used to PHYSICALLY MOVE DATA IN or OUT the CLOUD. 
   - **Snowcone     :** 8TB(HHD); 14TB(SSD)
   - **Snowball Edge:** Storage Optimized(80TB); Compute Optimized(39.5TB)
-  - **Snowmobile   :** 100PB of Storage. 
--> **Snowball** is for PetaBytes of storage-----(no more used, aka - Snowball Edge).
+  - **Snowmobile   :** 100PB of Storage.
+- **Snowball** is for PetaBytes of storage-----(no more used, aka - Snowball Edge).
 
 ## STORAGE SERVICES:
 
@@ -137,59 +137,60 @@ pattern matching to discover and protect your sensitive data in AWS
 **-> Amazon FSx			-** Feature rich & highly-performant file system.	
 
 ## DATABSE SERVICES:
-**-> Database Migration Service(DMS)**- DMS can migrate:
-                                      - On-premise to AWS; 
-                                      - from 2 DB in diff/same AWS accounts using different SQL Engines; 
-                                      - from SQL to NOSQL DB.
-**-> Elastic Cache -** managed DB for IN-MEMORY & CACHING open source DB for Redis/Memcached (When you need to improve the performance of app by adding a caching layer in-front of web-server/DB).
-**-> RedShift      -** PetaSize Data-warehouse for OLAP.									
+- **Database Migration Service(DMS) -**
+  - DMS can migrate:
+  - On-premise to AWS;
+  - from 2 DB in diff/same AWS accounts using different SQL Engines;
+  - from SQL to NOSQL DB. 
+- **Elastic Cache -** managed DB for IN-MEMORY & CACHING open source DB for Redis/Memcached (When you need to improve the performance of app by adding a caching layer in-front of web-server/DB).
+- **RedShift -** PetaSize Data-warehouse for OLAP.									
 
 ## AWS WELL-ARCHITECTED DESIGN PRINCIPLES:
 
-### -> Operational Excellence:
-  - Perform operations as Code.
-  - Make Frequent Small Reversible Changes.
-  - Refine Operations procedures frequently.
-  - Anticipate Failures.
-  - Learn from all Operational Failures.
+### 1) Operational Excellence: 
+- Perform operations as Code.
+- Make Frequent Small Reversible Changes.
+- Refine Operations procedures frequently.
+- Anticipate Failures.
+- Learn from all Operational Failures.
 
-### -> Security:
-  - Implement a strong Identity Foundation (PoLP- Principle of Least Privilege).
-  - Enable Traceability.
-  - Apply Security at all Layers.
-  - Automate Security Best Practices.
-  - Protect data in Transit & at Rest.
-  - Keep People away from Data.
-  - Prepare for Security Events.
+### 2) Security:
+- Implement a strong Identity Foundation (PoLP- Principle of Least Privilege).
+- Enable Traceability.
+- Apply Security at all Layers.
+- Automate Security Best Practices.
+- Protect data in Transit & at Rest.
+- Keep People away from Data.
+- Prepare for Security Events.
 
-### -> Reliability:
-  - Automatically recover from Failure.
-  - Test Recovery Procedures.
-  - Scale Horizontally to increase aggregate System availability.
-  - Stop Guessing Capacity.
-  - Manage change in Automation.
+### 3) Reliability:
+- Automatically recover from Failure.
+- Test Recovery Procedures.
+- Scale Horizontally to increase aggregate System availability.
+- Stop Guessing Capacity.
+- Manage change in Automation.
 
-### -> Performance Efficiency:
-  - Democratize Advanced Technologies.
-  - Go Global In Minutes.
-  - Use Serverless Architectures.
-  - Expirements more often.
-  - Consider Mechanical Sympathy.
+### 4) Performance Efficiency:
+- Democratize Advanced Technologies.
+- Go Global In Minutes.
+- Use Serverless Architectures.
+- Expirements more often.
+- Consider Mechanical Sympathy.
 
-### -> Cost Optimization:
-  - Implement Cloud Financial Management.
-  - Adopt a consumption model.
-  - Measure overall efficiency.
-  - Stop spending money on undifferentiated heavy lifting.
-  - Analyze and Attribute Expenditure.
+### 5) Cost Optimization:
+- Implement Cloud Financial Management.
+- Adopt a consumption model.
+- Measure overall efficiency.
+- Stop spending money on undifferentiated heavy lifting.
+- Analyze and Attribute Expenditure.
 
-**-> AWS ABUSE (Trust & Safety Team):**
-  - Spam
-  - DDOS attacks
-  - Port Scanning
-  - Intrusion Attempts
-  - Hosting Prohibited Content
-  - Distributing Malware
+**AWS ABUSE (Trust & Safety Team):**
+- Spam
+- DDOS attacks
+- Port Scanning
+- Intrusion Attempts
+- Hosting Prohibited Content
+- Distributing Malware
 If your logs shows that one or more AWS-owned IP addresses are used for these attacks (if coming outside of AWS a/c or even from Inside of AWS a/c), you should not contact to AWS Support, You should contact to AWS ABUSE TEAM.
 
 
@@ -199,20 +200,20 @@ If your logs shows that one or more AWS-owned IP addresses are used for these at
 
 **For MULTI-TENANT :** AWS KMS(Key Management Service) - helps in encryption of data.
 **For SINGLE-TENANT:** AWS CloudHSM.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## COMPLIANCE PROGRAMS:
--> **HIPAA (Health Insurance Portability & Accountability Act):** US based, Secures Medical information.
--> **PHIP (Personal Helath Information Protection Act):** An Ontario provinsial Law (Canada) - regulates patient protected Health Info.  
--> **PCI DSS (The Payment Card Industry Data Security Standard):** Secures Credit card info. when doing online payment.
--> **ISO/IEC (International Organizational for Standardization/International Electrotechnical Commission):** 
-  - ISO/IEC 27018: Protection of Personal Data in the Cloud (eg: PII).
-  - ISO/IEC 27017: Enhanced focus on Cloud Security.
--> **SOC (System and Organization Control):** 
-  - SOC 1: 18 Standard and report on the effectiveness of internal control.
-  - SOC 2: Evaluates internal controls, policies, and procedures that directly relate to the security of a system at a service organization.
-  - SOC 3: A report based on the Trust Services Criteria that can be freely distributed.
--> **FIPS (Federal Information Processing Standard):**
-  - US & Canadian Gov. standard - specifies security reqs. for Cryptographic Modules that protect Sensitive Data.
--> **CSA (Cloud Security Alliance) STAR Certification:** Third-party assessment for Cloud provider's Security posture.
+- **HIPAA (Health Insurance Portability & Accountability Act):** US based, Secures Medical information.
+- **PHIP (Personal Helath Information Protection Act):** An Ontario provinsial Law (Canada) - regulates patient protected Health Info.
+- **PCI DSS (The Payment Card Industry Data Security Standard):** Secures Credit card info. when doing online payment.
+- **ISO/IEC (International Organizational for Standardization/International Electrotechnical Commission):**
+   - ISO/IEC 27018: Protection of Personal Data in the Cloud (eg: PII).
+   - ISO/IEC 27017: Enhanced focus on Cloud Security.
+- **SOC (System and Organization Control):**
+   - SOC 1: 18 Standard and report on the effectiveness of internal control.
+   - SOC 2: Evaluates internal controls, policies, and procedures that directly relate to the security of a system at a service organization.
+   - SOC 3: A report based on the Trust Services Criteria that can be freely distributed.
+- **FIPS (Federal Information Processing Standard):**
+   - US & Canadian Gov. standard - specifies security reqs. for Cryptographic Modules that protect Sensitive Data.
+- **CSA (Cloud Security Alliance) STAR Certification:** Third-party assessment for Cloud provider's Security posture.
  
