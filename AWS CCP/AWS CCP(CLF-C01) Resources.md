@@ -199,6 +199,7 @@ If your logs shows that one or more AWS-owned IP addresses are used for these at
 **FIPS (Federal Information Processing Standard):** US & Canadian Gov. standard - specifies security reqs. for Cryptographic Modules that protect Sensitive Data.
 
 **For MULTI-TENANT :** AWS KMS(Key Management Service) - helps in encryption of data.
+
 **For SINGLE-TENANT:** AWS CloudHSM.
 
 
