@@ -117,6 +117,7 @@ pattern matching to discover and protect your sensitive data in AWS
 -> **Snowball** is for PetaBytes of storage-----(no more used, aka - Snowball Edge).
 
 ## STORAGE SERVICES:
+
 **-> Simple Storage Service(S3)   -** Serverless OBJECT Storage Service.
 **-> S3 Glacier                   -** Cold Storage Services, for archiving & long-term backup.
 **-> Elastic Block Store(EBS)     -** Persistent Block Storage Service (virtual hard drive).
@@ -126,7 +127,6 @@ pattern matching to discover and protect your sensitive data in AWS
 **-> AWS Backup		        -** Fully managed backup service.
 **-> CloudEndure Disaster Recovery-**** Replicates your machine into Low Cost.
 **-> Amazon FSx			-** Feature rich & highly-performant file system.	
----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## DATABSE SERVICES:
 **-> Database Migration Service(DMS)**- DMS can migrate:
