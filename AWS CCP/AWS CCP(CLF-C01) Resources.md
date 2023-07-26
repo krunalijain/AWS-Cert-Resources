@@ -1,5 +1,4 @@
-# AWS Key Notes for Main Services
-(Key Words for each services)
+# AWS Key Notes for Main Services (Key Words for each services)
 
 **Trusted Advisor:** Recommends you regarding cost optimisation, performance, fault tolerence, security.
 
