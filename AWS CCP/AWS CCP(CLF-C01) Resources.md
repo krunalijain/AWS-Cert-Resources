@@ -51,12 +51,12 @@ pattern matching to discover and protect your sensitive data in AWS
 ## EC2 Pricing Models:
 
 ### ON-DEMAND: 
--> PAYG	Model (Pay-As-You-Go)
--> No upfront payment
--> No long-term commitment
--> Where the workload is - spikey, short-term & Unpredictable.
--> By-default this is been selected.
--> Estimated by Hourly Rate.
+- PAYG	Model (Pay-As-You-Go)
+- No upfront payment
+- No long-term commitment
+- Where the workload is - spikey, short-term & Unpredictable.
+- By-default this is been selected.
+- Estimated by Hourly Rate.
 
 
 ### RESERVED-INSTANCE:
@@ -65,18 +65,18 @@ pattern matching to discover and protect your sensitive data in AWS
 -> STANDARD    - upto 75% of reducing costs compared to On-Demand.
 -> CONVERTIBLE - upto 54% of reducing costs compared to On-Demand.
 **Payment Methods**
--> All upfront (Pre paid)       : Full payment at the start of the term
--> Partial Upfront   : Some amount has to be payed then remaining is been discounted at hourly rate while billing
--> No Upfront        : all is discounted at hourly rate regardless of Reserved Instance.
--> RIs can be shared between multiple accounts
--> Unused RIs can be sold in Reserved Instance Marketplace.
+- All upfront (Pre paid): Full payment at the start of the term
+- Partial Upfront       : Some amount has to be payed then remaining is been discounted at hourly rate while billing
+- No Upfront            : all is discounted at hourly rate regardless of Reserved Instance.
+- RIs can be shared between multiple accounts
+- Unused RIs can be sold in Reserved Instance Marketplace.
 
 ### SPOT INSTANCES:
--> Unused compute capacity (Idle Servers).
--> Discount of 90% compared to On-Demand.
--> Flexible STRAT & END Time of applications.
--> Feasible at very LOW COMPUTE COST.
--> Load Balancing, Flexible & Big Data Workloads.
+- Unused compute capacity (Idle Servers).
+- Discount of 90% compared to On-Demand.
+- Flexible STRAT & END Time of applications.
+- Feasible at very LOW COMPUTE COST.
+- Load Balancing, Flexible & Big Data Workloads.
 
 -> AWS BATCH: very convinient to use with SPOT. (Commonly we use Spot with AWS BATCH).
 -> If Terminated by AWS   : won't be charged for partial hour of usage.
