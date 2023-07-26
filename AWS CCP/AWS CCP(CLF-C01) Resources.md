@@ -119,13 +119,21 @@ pattern matching to discover and protect your sensitive data in AWS
 ## STORAGE SERVICES:
 
 **-> Simple Storage Service(S3)   -** Serverless OBJECT Storage Service.
+
 **-> S3 Glacier                   -** Cold Storage Services, for archiving & long-term backup.
+
 **-> Elastic Block Store(EBS)     -** Persistent Block Storage Service (virtual hard drive).
+
 **-> Elastic File Storage(EFS)    -** Cloud Native NFS Files System service (When you need to share files between multiple servers).
+
 **-> Storage Gateway 	        -** Hybrid Cloud Storage (extends on-premise sotrage to cloud).
-**-> AWS SnowFamily     	        -** Storage devices used to physically migrate large amount of data. 
+
+**-> AWS SnowFamily     	        -** Storage devices used to physically migrate large amount of data.
+
 **-> AWS Backup		        -** Fully managed backup service.
+
 **-> CloudEndure Disaster Recovery-**** Replicates your machine into Low Cost.
+
 **-> Amazon FSx			-** Feature rich & highly-performant file system.	
 
 ## DATABSE SERVICES:
