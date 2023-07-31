@@ -1,6 +1,7 @@
 # AWS Key Notes for Main Services
 (Key Words for each services)
 
+### Core Services
 **Trusted Advisor:** Recommends you regarding cost optimisation, performance, fault tolerence, security.
 
 **Personal Health Dashboard:** Detects/Shows if any issues or outages available or affecting use of aws services. Provides Alerts & Guidance for AWS Events that might affect your environment.
@@ -50,7 +51,7 @@ pattern matching to discover and protect your sensitive data in AWS
 
 ## EC2 Pricing Models:
 
-### ON-DEMAND: 
+### ON-DEMAND:  
 -> PAYG	Model (Pay-As-You-Go)
 -> No upfront payment
 -> No long-term commitment
