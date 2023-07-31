@@ -50,7 +50,6 @@ pattern matching to discover and protect your sensitive data in AWS
 
 ## EC2 Pricing Models:
 
-<<<<<<< HEAD:AWS CCP/KeyNotes.md
 ### ON-DEMAND:  
 -> PAYG	Model (Pay-As-You-Go)
 -> No upfront payment
@@ -58,7 +57,7 @@ pattern matching to discover and protect your sensitive data in AWS
 -> Where the workload is - spikey, short-term & Unpredictable.
 -> By-default this is been selected.
 -> Estimated by Hourly Rate.
-=======
+
 ### ON-DEMAND: 
 - PAYG	Model (Pay-As-You-Go)
 - No upfront payment
@@ -66,8 +65,6 @@ pattern matching to discover and protect your sensitive data in AWS
 - Where the workload is - spikey, short-term & Unpredictable.
 - By-default this is been selected.
 - Estimated by Hourly Rate.
->>>>>>> 3b712e9f7516d1a78f711b2d8bc9fbcc703cd1b6:AWS CCP/AWS CCP(CLF-C01) Resources.md
-
 
 ### RESERVED-INSTANCE:
 - Predictable, Steady-State, Reserved Capacity.
