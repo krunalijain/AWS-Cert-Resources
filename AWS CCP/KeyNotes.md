@@ -1,7 +1,9 @@
 # AWS Key Notes for Main Services (Key Words for each services)
-## Table of Contents(TOC):
+## Table of Contents(TOC)
+
+  
 - [AWS Key Notes for Main Services (Key Words for each services)](#aws-key-notes-for-main-services-key-words-for-each-services)
-  - [Table of Contents(TOC):](#table-of-contentstoc)
+  - [Table of Contents(TOC)](#table-of-contentstoc)
     - [Core Services](#core-services)
   - [EC2 Pricing Models:](#ec2-pricing-models)
     - [ON-DEMAND:](#on-demand)
