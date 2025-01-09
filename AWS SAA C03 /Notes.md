@@ -9,5 +9,5 @@
 
 
 # References
-![https://www.mindmeister.com/app/map/3471885158?m=outline](Mindmiester SAA C03 Map)
-![ExamPro's Complete Course](https://www.youtube.com/watch?v=aFV5cuu8keo&list=PLBfufR7vyJJ6FhBhJJSaMkI-m2wyoPy-G&index=1)
+- ![Mindmiester SAA C03 Map](https://www.mindmeister.com/app/map/3471885158?m=outline)
+- ![ExamPro's Complete Course](https://www.youtube.com/watch?v=aFV5cuu8keo&list=PLBfufR7vyJJ6FhBhJJSaMkI-m2wyoPy-G&index=1)
